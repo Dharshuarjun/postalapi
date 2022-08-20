@@ -4,7 +4,8 @@ div.innerHTML=`
 <h4>Enter your City name : </h4>
 <input type="text" id="txt">
 <button type="button" onclick="getData()">Search</button>
-<div id="tracking"></div>`;
+<div id="tracking"></div>
+`;
 div.style.textAlign="center";
 document.body.append(div);
 
@@ -18,4 +19,5 @@ async function getData(){
     var output=result[index].Message;
     console.log(output);
     document.getElementById("tracking").innerText=output;
+
 }
