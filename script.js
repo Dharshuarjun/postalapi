@@ -1,6 +1,8 @@
 var div=document.createElement("div");
-//<div></div>
-div.innerHTML=`<input type="text" id="txt">
+div.innerHTML=`
+<h1>Postal Branches</h1>
+<h4>Enter your City name : </h4>
+<input type="text" id="txt">
 <button type="button" onclick="getData()">Search</button>
 <div id="tracking"></div>`;
 div.style.textAlign="center";
@@ -17,4 +19,3 @@ async function getData(){
     console.log(output);
     document.getElementById("tracking").innerText=output;
 }
-getData();

@@ -1,0 +1,28 @@
+input{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    background: rgb(84, 201, 109);
+}
+h1{
+    font-size: 40px;
+    color:rgb(13, 13, 78)
+}
+h4{
+    font-size: 20px;
+    color:rgb(209, 15, 135);
+    margin-right: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#txt{
+    color:rgb(19, 51, 211);
+    font-family: sans-serif;
+}
+#tracking{
+    margin-top: 2%;
+    font-size: 20px;
+    color:crimson;
+    font-family:sans-serif;
+}
+
